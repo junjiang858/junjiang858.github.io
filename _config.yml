@@ -224,3 +224,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+security:
+  http_images: true # 允许HTTP图片
+  unsafe_links: true # 允许不安全链接
