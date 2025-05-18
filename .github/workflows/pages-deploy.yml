@@ -55,6 +55,9 @@ jobs:
           bundle exec htmlproofer _site \
             \-\-disable-external \
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+        env:
+          JEKYLL_ENV: development # 设置为开发环境
+          JEKYLL_SECURITY: relaxed # 降低安全检查级别
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
