@@ -48,7 +48,9 @@ jobs:
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
-          JEKYLL_ENV: "production"
+          # JEKYLL_ENV: "production"
+          JEKYLL_ENV: development # 设置为开发环境
+          JEKYLL_SECURITY: relaxed # 降低安全检查级别
 
       - name: Test site
         run: |
