@@ -4,7 +4,7 @@ description: >-
   列出并分类了git详细命令。
 date: 2025-05-24 14:00:00 +0800
 categories: [git, 命令大全]
-tags: [git命令大全]
+tags: [git详细命令]
 pin: false
 ---
 
