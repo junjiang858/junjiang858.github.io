@@ -1,3 +1,13 @@
+---
+title: git常用命令
+description: >-
+  列出了工作中常用的git命令。
+date: 2025-05-24 14:10:00 +0800
+categories: [git, 常用命令]
+tags: [git常用命令]
+pin: false
+---
+
 ## 常用的git命令。
 
 #### 在当前目录新建一个Git代码库：
